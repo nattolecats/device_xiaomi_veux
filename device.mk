@@ -312,17 +312,33 @@ PRODUCT_PACKAGES += \
 
 # NFC
 PRODUCT_PACKAGES += \
-    android.hardware.nfc@1.0-impl \
-    android.hardware.secure_element@1.0.vendor \
+    android.hardware.secure_element@1.0 \
+    android.hardware.secure_element@1.0-impl.vendor \
     com.android.nfc_extras \
     libchrome.vendor \
-    vendor.nxp.nxpese@1.0 \
-    vendor.nxp.nxpnfclegacy@1.0 \
-    vendor.nxp.nxpnfclegacy@1.0.vendor \
     Tag \
-    NfcNci \
     SecureElement \
     com.android.nfc_extras
+
+# NFC - NXP
+PRODUCT_PACKAGES += \
+    NQNfcNci \
+    com.nxp.nfc.nq \
+    nfc_nci.nqx.default.hw \
+    vendor.nxp.hardware.nfc@2.0.vendor \
+    vendor.nxp.hardware.nfc@2.0-service
+
+PRODUCT_PACKAGES += \
+    jcos_nq_client \
+    ls_nq_client \
+    se_nq_extn_client
+
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/nxp/opensource/commonsys/external/libnfc-nci \
+    vendor/nxp/opensource/commonsys/packages/apps/Nfc \
+    vendor/nxp/opensource/interfaces \
+    vendor/nxp/opensource/halimpl \
+    vendor/nxp/opensource/hidllimpl
 
 # OMX
 PRODUCT_PACKAGES += \
