@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from veux-user 13 TKQ1.221114.001 V14.0.3.0.TKCMIXM release-keys
+# All unpinned blobs below are extracted from veux-user 13 TKQ1.221114.001 V14.0.4.0.TKCJPXM release-keys
 
 # ACDB
 vendor/etc/acdbdata/MTP/holi-mtpsku1-snd-card/MTP_SKU1_Bluetooth_cal.acdb
@@ -201,89 +201,25 @@ vendor/lib/soundfx/libswdap.so
 vendor/lib/soundfx/libswgamedap.so
 vendor/lib/soundfx/libswvqe.so
 
-# Audio graph manager
--vendor/lib/libagm.so
--vendor/lib/vendor.qti.hardware.AGMIPC@1.0-impl.so
--vendor/lib64/libagm.so
--vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so
-vendor/bin/agmcap
-vendor/bin/agmcompressplay
-vendor/bin/agmplay
-vendor/bin/cplay
-vendor/bin/hw/vendor.qti.hardware.AGMIPC@1.0-service
-vendor/etc/init/vendor.qti.hardware.AGMIPC@1.0-service.rc
-vendor/lib/libagm_compress_plugin.so
-vendor/lib/libagm_mixer_plugin.so
-vendor/lib/libagm_pcm_plugin.so
-vendor/lib/libagmclient.so
-vendor/lib/libagmmixer.so
-vendor/lib/vendor.qti.hardware.AGMIPC@1.0.so
-vendor/lib64/libagm_compress_plugin.so
-vendor/lib64/libagm_mixer_plugin.so
-vendor/lib64/libagm_pcm_plugin.so
-vendor/lib64/libagmclient.so
-vendor/lib64/libagmmixer.so
-vendor/lib64/vendor.qti.hardware.AGMIPC@1.0.so
-
 # Audio libraries
--vendor/lib/libar-pal.so
--vendor/lib64/libar-pal.so
-vendor/lib/hw/gyro_fusion_interface.so
-vendor/lib/libadm.so
 vendor/lib/libadsprpc.so
-vendor/lib/libar-acdb.so
-vendor/lib/libar-gpr.so
-vendor/lib/libar-gsl.so
-vendor/lib/libats.so
 vendor/lib/libaudio_log_utils.so
-vendor/lib/libaudiocloudctrl.so
-vendor/lib/libaudioroute_ext.so
-vendor/lib/libawcal.so
+system/lib/libaudiocloudctrl.so
 vendor/lib/libbatterylistener.so
-vendor/lib/libcapiv2svacnnvendor.so
-vendor/lib/libcapiv2svarnnvendor.so
-vendor/lib/libcapiv2uvvendor.so
+vendor/lib/libcapiv2svacnn.so
+vendor/lib/libcapiv2svarnn.so
+vendor/lib/libcapiv2vop.so
+system/lib/libxlog.so
 vendor/lib/libdapparamstorage.so
-vendor/lib/libfmpal.so
-vendor/lib/libkaraokepal.so
-vendor/lib/liblx-ar_util.so
-vendor/lib/liblx-osal.so
-vendor/lib/libmcs.so
-vendor/lib/libpal_net_if.so
-vendor/lib/libpalclient.so
-vendor/lib/libqtigefar.so
-vendor/lib/libresampler.so
-vendor/lib/libsndcardparser.so
-vendor/lib/vendor.qti.hardware.pal@1.0-impl.so
-vendor/lib/vendor.qti.hardware.pal@1.0.so
-vendor/lib64/hw/audio.primary.taro.so
-vendor/lib64/hw/gyro_fusion_interface.so
-vendor/lib64/lib_misound_asc.so
-vendor/lib64/libadm.so
+vendor/lib64/hw/audio.primary.holi.so
 vendor/lib64/libadsprpc.so
-vendor/lib64/libar-acdb.so
-vendor/lib64/libar-gpr.so
-vendor/lib64/libar-gsl.so
-vendor/lib64/libats.so
 vendor/lib64/libaudio_log_utils.so
-vendor/lib64/libaudiocloudctrl.so
-vendor/lib64/libaudioroute_ext.so
-vendor/lib64/libawcal.so
+system/lib64/libaudiocloudctrl.so
 vendor/lib64/libbatterylistener.so
-vendor/lib64/libcapiv2svacnnvendor.so
-vendor/lib64/libcapiv2svarnnvendor.so
-vendor/lib64/libcapiv2uvvendor.so
-vendor/lib64/libfmpal.so
-vendor/lib64/libkaraokepal.so
-vendor/lib64/liblx-ar_util.so
-vendor/lib64/liblx-osal.so
-vendor/lib64/libmcs.so
-vendor/lib64/libpal_net_if.so
-vendor/lib64/libpalclient.so
-vendor/lib64/libqtigefar.so
-vendor/lib64/libresampler.so
-vendor/lib64/libsndcardparser.so
-vendor/lib64/libxlog_vendor.so
+vendor/lib64/libcapiv2svacnn.so
+vendor/lib64/libcapiv2svarnn.so
+vendor/lib64/libcapiv2vop.so
+system/lib64/libxlog.so
 
 # Audio soundfx
 vendor/lib/soundfx/libqcbassboost.so
@@ -960,7 +896,7 @@ vendor/lib64/librpmb.so
 vendor/lib64/libsecureui.so
 vendor/lib64/libsecureui_svcsock.so
 vendor/lib64/libsi.so
-vendor/lib64/libspl.so
+vendor/lib64/libsplh.so
 vendor/lib64/libssd.so
 
 # DRM-HDCP
@@ -1044,7 +980,9 @@ vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 
 # GMS
-product/etc/permissions/privapp-permissions-gms.xml
+system/etc/permissions/privapp-permissions-google-system.xml
+product/etc/permissions/privapp-permissions-google-product.xml
+system_ext/etc/permissions/privapp-permissions-google-system-ext.xml
 
 # Graphics (Adreno)
 vendor/gpu/kbc/sequence_manifest.bin
@@ -1131,7 +1069,6 @@ vendor/lib64/libloc_api_wds.so
 vendor/lib64/libloc_socket.so
 vendor/lib64/liblocationservice.so
 vendor/lib64/liblocationservice_glue.so
-vendor/lib64/liblocdiagiface.so
 vendor/lib64/liblowi_client.so
 vendor/lib64/liblowi_wifihal.so
 vendor/lib64/libqcc_file_agent.so
@@ -1151,7 +1088,6 @@ vendor/lib64/vendor.qti.gnss@4.0.so
 # HotwordEnrollment
 product/priv-app/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND.apk
 product/priv-app/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND.apk
-product/etc/permissions/privapp-permissions-hotword.xml
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 system_ext/framework/com.android.hotwordenrollment.common.util.jar
 
@@ -1273,9 +1209,8 @@ vendor/etc/media_blair/video_system_specs.json
 vendor/etc/media_holi/video_system_specs.json
 vendor/etc/seccomp_policy/codec2.vendor.base-arm.policy
 vendor/etc/seccomp_policy/codec2.vendor.ext-arm.policy
-vendor/etc/seccomp_policy/mediacodec.policy
-vendor/etc/seccomp_policy/mediaextractor.policy
-vendor/etc/seccomp_policy/mediaswcodec.policy
+system/etc/seccomp_policy/mediacodec.policy
+system/etc/seccomp_policy/mediaextractor.policy
 vendor/etc/vintf/manifest/c2_manifest_vendor.xml
 vendor/etc/video_system_specs.json
 vendor/lib/libmmosal.so
@@ -1405,29 +1340,16 @@ vendor/lib64/unnhal-acc-gpu.so
 vendor/lib64/unnhal-acc-hvx.so
 
 # NFC
-vendor/bin/hw/android.hardware.nfc@1.2-service
+vendor/bin/hw/vendor.nxp.hardware.nfc@2.0-service
 vendor/bin/nqnfcinfo
-vendor/etc/init/android.hardware.nfc@1.2-service.rc
-vendor/etc/init/init.veux.nfc.rc
-vendor/etc/init/init.veux.se.rc
-vendor/etc/permissions/com.nxp.nfc.xml:odm/etc/permissions/sku_nfc/com.nxp.nfc.xml
-vendor/etc/libese-nxp.conf
+vendor/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc
 vendor/etc/libnfc-mtp-SN100.conf
 vendor/etc/libnfc-mtp-SN100_38_4MHZ.conf
 vendor/etc/libnfc-nci.conf
-vendor/etc/libnfc-nxp.conf
+vendor/etc/libnfc-nxp-pnscr.conf
+vendor/etc/libnfc-qrd-SN100.conf
 vendor/etc/libnfc-qrd-SN100_38_4MHZ.conf
-vendor/lib64/ese_client.so
-vendor/lib64/ese_spi_nxp.so
-vendor/lib64/hal_libnfc.so
-vendor/lib64/libpn557_fw.so
-vendor/lib64/ls_client.so
-vendor/lib64/nfc_nci_nxp.so
-vendor/lib64/vendor.nxp.eventprocessor@1.0.so
-vendor/lib64/vendor.nxp.nxpese@1.0.so
-vendor/lib64/vendor.nxp.nxpnfc@2.0.so
-vendor/lib64/vendor.nxp.nxpnfclegacy@1.0.so
-vendor/libnfc-nxp_RF.conf
+vendor/lib/libsn100u_fw.so
 
 # OMX
 vendor/lib/libAlacSwDec.so
@@ -1713,11 +1635,11 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so
 
 # Secure element
-vendor/bin/hw/android.hardware.secure_element@1.2-service
-vendor/etc/init/android.hardware.secure_element@1.2-service.rc
+vendor/bin/hw/vendor.qti.secure_element@1.2-service
+vendor/etc/init/vendor.qti.secure_element@1.2-service.rc
 
 # Sensors
-system/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar
+system_ext/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar
 vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service
 vendor/bin/init.qcom.sensors.sh
 vendor/bin/sensors.qti
@@ -1728,11 +1650,9 @@ vendor/etc/init/vendor.sensors.qti.rc
 vendor/etc/init/vendor.sensors.sscrpcd.rc
 vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml
 vendor/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so
-vendor/lib64/libnanopb.so
 vendor/lib64/libnotifyaudiohal.so
 vendor/lib64/libsensorcal.so
 vendor/lib64/libsensorslog.so
-vendor/lib64/libsns_api.so
 vendor/lib64/libsns_device_mode_stub.so
 vendor/lib64/libsns_fastRPC_util.so
 vendor/lib64/libsns_low_lat_stream_stub.so
@@ -1741,19 +1661,10 @@ vendor/lib64/libsnsapi.so
 vendor/lib64/libsnsdiaglog.so
 vendor/lib64/libssc.so
 vendor/lib64/libssc_default_listener.so
-vendor/lib64/libssccalapi.so
 vendor/lib64/sensors.elliptic.so
 vendor/lib64/sensors.ssc.so
 vendor/lib64/sensors.touch.detect.so
 vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
-
-# Sensors (citsensor)
-vendor/bin/hw/vendor.xiaomi.hardware.citsensorservice@1.1-service
-vendor/etc/init/vendor.xiaomi.hardware.citsensorservice@1.1-service.rc
-vendor/etc/vintf/manifest/vendor.xiaomi.hardware.citsensorservice@1.1-service.xml
-vendor/lib64/hw/vendor.xiaomi.hardware.citsensorservice@1.1-impl.so
-vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.0.so
-vendor/lib64/vendor.xiaomi.hardware.citsensorservice@1.1.so
 
 # Sensors configs
 vendor/etc/sensors/config/holi_default_sensors.json
