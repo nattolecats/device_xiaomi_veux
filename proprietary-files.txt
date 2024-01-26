@@ -1355,6 +1355,11 @@ vendor/etc/libnfc-qrd-SN100.conf
 vendor/etc/libnfc-qrd-SN100_38_4MHZ.conf
 vendor/lib/libsn100u_fw.so
 
+# Felica
+vendor/etc/felica/mfs.cfg:product/etc/felica/mfs.cfg
+vendor/etc/felica/mfm.cfg:product/etc/felica/mfm.cfg
+vendor/etc/felica/common.cfg:product/etc/felica/common.cfg
+
 # OMX
 vendor/lib/libAlacSwDec.so
 vendor/lib/libApeSwDec.so
