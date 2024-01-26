@@ -313,7 +313,6 @@ PRODUCT_PACKAGES += \
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.0 \
-    android.hardware.secure_element@1.0-impl.vendor \
     com.android.nfc_extras \
     libchrome.vendor \
     Tag \

@@ -55,6 +55,9 @@ function blob_fixup() {
             llvm-strip --strip-debug  "${2}"
             grep -q "libpiex_shim.so" "${2}" || "${PATCHELF}" --add-needed "libpiex_shim.so" "${2}"
             ;;
+        vendor/lib64/android.hardware.secure_element@1.0-impl.so)
+            patchelf --remove-needed android.hidl.base@1.0.so "${2}"
+            ;;
     esac
 }
 

@@ -1646,6 +1646,7 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so
 # Secure element
 vendor/bin/hw/vendor.qti.secure_element@1.2-service
 vendor/etc/init/vendor.qti.secure_element@1.2-service.rc
+vendor/lib64/android.hardware.secure_element@1.0-impl.so
 
 # Sensors
 system_ext/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar
