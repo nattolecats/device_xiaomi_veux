@@ -1643,6 +1643,10 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so
 
+# EUICC
+product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
+product/etc/sysconfig/android.hardware.telephony.euicc.xml
+
 # Secure element
 vendor/bin/hw/vendor.qti.secure_element@1.2-service
 vendor/etc/init/vendor.qti.secure_element@1.2-service.rc

@@ -365,6 +365,7 @@ PRODUCT_PACKAGES += \
     DialerOverlayVeux \
     FrameworksResOverlayVeux \
     NfcOverlayVeux \
+    EuiccOverlayVeux \
     SettingsOverlayVeux \
     SettingsProviderOverlayVeux \
     SettingsProviderOverlayS88006AA1 \
