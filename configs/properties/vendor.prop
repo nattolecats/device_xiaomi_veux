@@ -291,6 +291,7 @@ persist.mm.enable.prefetch=true
 
 # NFC
 ro.vendor.se.type=HCE,UICC
+persist.nfc_cfg.config_file_name=libnfc-nci.conf
 
 # HWUI
 debug.hwui.use_hint_manager=true
