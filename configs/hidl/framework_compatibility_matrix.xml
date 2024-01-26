@@ -280,6 +280,14 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
+        <name>vendor.qti.esepowermanager</name>
+        <version>1.0-1</version>
+        <interface>
+            <name>IEsePowerManager</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
         <name>vendor.qti.automotive.qcarcam</name>
         <version>1.0</version>
         <interface>
