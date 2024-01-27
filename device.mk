@@ -372,6 +372,7 @@ PRODUCT_PACKAGES += \
     FrameworksResOverlayVeux \
     NfcOverlayVeux \
     EuiccOverlayVeux \
+    RegulatoryInfoOverlayS88008BA1 \
     SettingsOverlayVeux \
     SettingsProviderOverlayVeux \
     SettingsProviderOverlayS88006AA1 \
