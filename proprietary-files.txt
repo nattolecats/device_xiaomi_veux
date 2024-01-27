@@ -628,17 +628,6 @@ vendor/lib64/libmmcamera_mfnr.so
 vendor/lib64/libmmcamera_mfnr_t4.so
 vendor/lib64/libmmcamera_pdpc.so
 
-# MIUI Camera
--system_ext/framework/miui-framework.jar
-system/etc/public.libraries-xiaomi.txt
-system/lib64/libcamera_mianode_jni.xiaomi.so
-system/lib64/vendor.xiaomi.hardware.campostproc@1.0.so
-system/lib64/libmicampostproc_client.so
-system/lib64/libhidltransport.so
-vendor/lib64/libhidltransport.so
-vendor/lib64/libxml2_vendor.so
-vendor/lib64/libmorpho_Lowlight.so
-
 # CDSP
 vendor/bin/cdsprpcd
 vendor/etc/init/vendor.qti.cdsprpc-service.rc
