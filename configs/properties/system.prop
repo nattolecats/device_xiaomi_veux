@@ -103,3 +103,7 @@ ro.sf.skip_set_active_mode_when_off=1
 
 # WiFi Display
 persist.debug.wfd.enable=1
+
+# MIUI Camera
+ro.miui.build.region=in
+ro.miui.notch=1

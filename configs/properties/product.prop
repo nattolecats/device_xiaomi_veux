@@ -37,3 +37,7 @@ debug.media.transcoding.codec_max_operating_rate_1080P=120
 
 # eSIM
 masterclear.allow_retain_esim_profiles_after_fdr=true
+
+# MIUI Camera
+ro.com.google.lens.oem_camera_package=com.android.camera
+persist.vendor.camera.privapp.list=com.android.camera
